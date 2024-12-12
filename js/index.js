@@ -22,7 +22,7 @@ searchBtn.addEventListener("click",function(){
 
 // AJAX Function
 
-function getRecipes(meal) {
+function getRecipes(meal = "pizza") {
   let http = new XMLHttpRequest();
   http.open("GET", `https://forkify-api.herokuapp.com/api/search?q=${meal}`);
   http.send();
