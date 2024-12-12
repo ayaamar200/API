@@ -7,18 +7,17 @@ let searchBtn = document.getElementById("searchBtn");
 // variables
 let allRecipes = [];
 // ! ******************** Global Functions ********************
-searchInput.addEventListener("input",function(){
+searchInput.addEventListener("input", function () {
   let searchValue = searchInput.value;
   console.log(searchValue);
   getRecipes(searchValue);
-})
+});
 
-searchBtn.addEventListener("click",function(){
+searchBtn.addEventListener("click", function () {
   let searchValue = searchInput.value;
   console.log(searchValue);
   getRecipes(searchValue);
-})
-
+});
 
 // AJAX Function
 
@@ -38,8 +37,6 @@ function getRecipes(meal = "pizza") {
     console.log("Error");
   });
 }
-
-
 
 function displayRecipes() {
   let recipesContainer = "";
