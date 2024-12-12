@@ -1,0 +1,1 @@
+This website is a Food API-based application that provide users with information about meals, recipes, or food details. It likely includes features like searching for recipes or browsing food categories,
